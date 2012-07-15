@@ -29,4 +29,4 @@ Mertirial list:
 A friendly user interface.Frontend use html5 and jquery. It must be easy and elegant.
 
 一个好用的飞行器监控系统，前端使用html5和jquery，后端还未确定（python/go/java/php）。
-数据可视化应该简洁至汪星人都能看懂，对飞行器的操控应飘逸至喵星人也会使用。
+数据可视化应该简洁到汪星人都能看懂，对飞行器的操控应飘逸至喵星人也会使用。
