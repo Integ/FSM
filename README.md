@@ -24,7 +24,7 @@ Mertirial list:
 
 ##wifi/3G通信模块
 
-##Web User Interface 用户接口
+##Web User Interface 用户接口（/WebUI）
 
 A friendly user interface.Frontend use html5 and jquery. It must be easy and elegant.
 
