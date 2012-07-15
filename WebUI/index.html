@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!-- Consider specifying the language of your content by adding the `lang` attribute to <html> -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+
+    <!-- Use the .htaccess and remove these lines to avoid edge case issues.
+         More info: h5bp.com/i/378 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>FSM Web User Interface</title>
+    <meta name="description" content="FSM Web User Interface">
+
+    <!-- Mobile viewport optimized: h5bp.com/viewport -->
+    <meta name="viewport" content="width=device-width">
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
+
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
+
+    <!-- All JavaScript at the bottom, except this Modernizr build.
+         Modernizr enables HTML5 elements & feature detects for optimal performance.
+         Create your own custom Modernizr build: www.modernizr.com/download/ -->
+    <script src="js/vendor/modernizr-2.5.3.min.js"></script>
+</head>
+<body>
+    <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
+         chromium.org/developers/how-tos/chrome-frame-getting-started -->
+    <!--[if lt IE 7]><p class="chromeframe">Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+
+    <!-- Add your site or application content here -->
+	<div class="container">
+	<header>
+		<h1>FSM</h1>
+		<a target="_blank" href="about.html">About</a>
+		<a target="_blank" href="https://github.com/Integ/FSM">Github</a>
+		<p>Welcome to FSM Web User Interface. RAmen.</p>
+	</header>
+	<nav>
+		<a id="nav1" href="javascript:void(0);">Status</a>
+		<a id="nav2" href="javascript:void(0);">Control</a>
+		<a id="nav3" href="javascript:void(0);">Camera</a>
+		<a id="nav4" href="javascript:void(0);">Console</a>
+		<a target="_blank" href="/wiki/">Wiki</a>
+	</nav>
+	<div class="board">
+		<section id="sec1" class="active">
+			<h2>Status</h2>
+			<table border="1">
+				<tr>
+					<td>time</td>
+					<td>19:36:12</td>
+					<td>date</td>
+					<td>2012/7/15</td>
+				</tr>
+				<tr>
+					<td>GPS</td>
+					<td>67.56N,134.89E</td>
+					<td>height</td>
+					<td>123.90m</td>
+				</tr>
+				<tr>
+					<td>velocity-x</td>
+					<td>123.89 m/s</td>
+					<td>angle-x</td>
+					<td>23.90</td>
+				</tr>
+				<tr>
+					<td>velocity-y</td>
+					<td>234.987 m/s</td>
+					<td>angle-y</td>
+					<td>123.90</td>
+				</tr>
+				<tr>
+					<td>velocity-z</td>
+					<td>332.90 m/s</td>
+					<td>angle-z</td>
+					<td>432.89</td>
+				</tr>
+			</table>
+		</section>
+		<section id="sec2" style="display:none;">
+			<h2>Control</h2>
+			<form>
+				<p>
+					<label>power</label>
+					<input type="range" min="0" max="100" value="0" step="10" name="power" list="power"/>
+				</p>
+				<p>
+					<label>velocity-x</label>
+					<input type="range" min="-100" max="100" value="0" step="10" name="power" list="velocity"/>
+				</p>
+				<p>
+					<label>velocity-y</label>
+					<input type="range" min="-100" max="100" value="0" step="10" name="power" list="velocity"/>
+				</p>
+				<p>
+					<label>velocity-z</label>
+					<input type="range" min="-100" max="100" value="0" step="10" name="power" list="velocity"/>
+				</p>
+				<datalist id="velocity">
+					<option value="-100">
+					<option value="-50">
+					<option value="-30">
+					<option value="0">
+					<option value="30">
+					<option value="50">
+					<option value="100">
+				</datalist>
+				<datalist id="power">
+					<option value="0">
+					<option value="30">
+					<option value="50">
+					<option value="100">
+				</datalist>
+			</form>
+		</section>
+		<section id="sec3" style="display:none;">
+			<h2>Camera</h2>
+			<embed src="http://player.youku.com/player.php/sid/XMjk4ODkzMTky/v.swf" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash" style="margin:0 100px;"></embed>
+		</section>
+		<section id="sec4" style="display:none;">
+			<h2>Console</h2>
+			<div style="margin:0 100px;width:480px;height:400px;background:#333;">
+			</div>
+		</section>
+	</div>
+
+	</div>
+    <!-- JavaScript at the bottom for fast page loading: http://developer.yahoo.com/performance/rules.html#js_bottom -->
+
+    <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.7.2.min.js"><\/script>')</script>
+
+    <!-- scripts concatenated and minified via build script -->
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <!-- end scripts -->
+
+    <!-- Asynchronous Google Analytics snippet. Change UA-XXXXX-X to be your site's ID.
+         mathiasbynens.be/notes/async-analytics-snippet -->
+    <script>
+        var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+        (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+        g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+        s.parentNode.insertBefore(g,s)}(document,'script'));
+    </script>
+</body>
+</html>
