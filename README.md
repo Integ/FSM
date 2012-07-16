@@ -30,4 +30,4 @@ PID，卡尔曼滤波。
 
 A friendly user interface.Frontend use html5 and jquery. It must be easy and elegant.
 
-一个好用的飞行器监控系统，前端使用html5和jquery，后端java。目标是使数据可视化简洁到汪星人都能看懂，对飞行器的操控飘逸至喵星人也会使用。
+一个好用的飞行器监控系统，前端使用html5和three.js（3d动画），后端java。目标是使数据更加直观（汪星人能看懂），对飞行器的操控更加飘逸（喵星人也会使用）。
