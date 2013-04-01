@@ -1,0 +1,4 @@
+--cpu Cortex-M3 ".\obj\stm32f10x.o" ".\obj\sys_config.o" ".\obj\delay.o" ".\obj\main.o" ".\obj\pwm.o" ".\obj\pwd.o" ".\obj\iic.o" ".\obj\sensors.o" ".\obj\gpio.o" "..\Library\STM32F10xR.LIB" ".\obj\kalmanfilter.o" ".\obj\pid.o" --strict --scatter ".\Obj\Project.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\List\Project.map" -o ".\Obj\Project.axf"

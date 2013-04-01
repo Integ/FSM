@@ -1,0 +1,30 @@
+*** Creating Trace Output File '.\Obj\Project.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\obj\stm32f10x.o"'
+### List of Objects: adding '".\obj\sys_config.o"'
+### List of Objects: adding '".\obj\delay.o"'
+### List of Objects: adding '".\obj\main.o"'
+### List of Objects: adding '".\obj\pwm.o"'
+### List of Objects: adding '".\obj\pwd.o"'
+### List of Objects: adding '".\obj\iic.o"'
+### List of Objects: adding '".\obj\sensors.o"'
+### List of Objects: adding '".\obj\gpio.o"'
+### List of Objects: adding '"..\Library\STM32F10xR.LIB"'
+### List of Objects: adding '".\obj\kalmanfilter.o"'
+### List of Objects: adding '".\obj\pid.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 ".\obj\stm32f10x.o" ".\obj\sys_config.o" ".\obj\delay.o" ".\obj\main.o" ".\obj\pwm.o" ".\obj\pwd.o" ".\obj\iic.o" ".\obj\sensors.o" ".\obj\gpio.o" "..\Library\STM32F10xR.LIB" ".\obj\kalmanfilter.o" ".\obj\pid.o" --strict --scatter ".\Obj\Project.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\List\Project.map" -o ".\Obj\Project.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\Obj\Project.axf'
+### ADS-LD Command File: '.\Obj\Project.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\Obj\Project.lnp', Handle=0x000002BC
+### Writing '.lnp' file
+### ADS-LD Command file '.\Obj\Project.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

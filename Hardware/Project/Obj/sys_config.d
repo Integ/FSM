@@ -1,0 +1,30 @@
+.\Obj\sys_config.o: ..\User\System\sys_config.c
+.\Obj\sys_config.o: D:\Program Files\Keil4\ARM\INC\ST\STM32F10x\stm32f10x_lib.h
+.\Obj\sys_config.o: D:\Program Files\Keil4\ARM\INC\ST\STM32F10x\stm32f10x_map.h
+.\Obj\sys_config.o: D:\Program Files\Keil4\ARM\INC\ST\STM32F10x\stm32f10x_conf.h
+.\Obj\sys_config.o: D:\Program Files\Keil4\ARM\INC\ST\STM32F10x\stm32f10x_type.h
+.\Obj\sys_config.o: D:\Program Files\Keil4\ARM\INC\ST\STM32F10x\cortexm3_macro.h
+.\Obj\sys_config.o: D:\Program Files\Keil4\ARM\INC\ST\STM32F10x\stm32f10x_adc.h
+.\Obj\sys_config.o: D:\Program Files\Keil4\ARM\INC\ST\STM32F10x\stm32f10x_bkp.h
+.\Obj\sys_config.o: D:\Program Files\Keil4\ARM\INC\ST\STM32F10x\stm32f10x_can.h
+.\Obj\sys_config.o: D:\Program Files\Keil4\ARM\INC\ST\STM32F10x\stm32f10x_crc.h
+.\Obj\sys_config.o: D:\Program Files\Keil4\ARM\INC\ST\STM32F10x\stm32f10x_dac.h
+.\Obj\sys_config.o: D:\Program Files\Keil4\ARM\INC\ST\STM32F10x\stm32f10x_dbgmcu.h
+.\Obj\sys_config.o: D:\Program Files\Keil4\ARM\INC\ST\STM32F10x\stm32f10x_dma.h
+.\Obj\sys_config.o: D:\Program Files\Keil4\ARM\INC\ST\STM32F10x\stm32f10x_exti.h
+.\Obj\sys_config.o: D:\Program Files\Keil4\ARM\INC\ST\STM32F10x\stm32f10x_flash.h
+.\Obj\sys_config.o: D:\Program Files\Keil4\ARM\INC\ST\STM32F10x\stm32f10x_fsmc.h
+.\Obj\sys_config.o: D:\Program Files\Keil4\ARM\INC\ST\STM32F10x\stm32f10x_gpio.h
+.\Obj\sys_config.o: D:\Program Files\Keil4\ARM\INC\ST\STM32F10x\stm32f10x_i2c.h
+.\Obj\sys_config.o: D:\Program Files\Keil4\ARM\INC\ST\STM32F10x\stm32f10x_iwdg.h
+.\Obj\sys_config.o: D:\Program Files\Keil4\ARM\INC\ST\STM32F10x\stm32f10x_nvic.h
+.\Obj\sys_config.o: D:\Program Files\Keil4\ARM\INC\ST\STM32F10x\stm32f10x_pwr.h
+.\Obj\sys_config.o: D:\Program Files\Keil4\ARM\INC\ST\STM32F10x\stm32f10x_rcc.h
+.\Obj\sys_config.o: D:\Program Files\Keil4\ARM\INC\ST\STM32F10x\stm32f10x_rtc.h
+.\Obj\sys_config.o: D:\Program Files\Keil4\ARM\INC\ST\STM32F10x\stm32f10x_sdio.h
+.\Obj\sys_config.o: D:\Program Files\Keil4\ARM\INC\ST\STM32F10x\stm32f10x_spi.h
+.\Obj\sys_config.o: D:\Program Files\Keil4\ARM\INC\ST\STM32F10x\stm32f10x_systick.h
+.\Obj\sys_config.o: D:\Program Files\Keil4\ARM\INC\ST\STM32F10x\stm32f10x_tim.h
+.\Obj\sys_config.o: D:\Program Files\Keil4\ARM\INC\ST\STM32F10x\stm32f10x_usart.h
+.\Obj\sys_config.o: D:\Program Files\Keil4\ARM\INC\ST\STM32F10x\stm32f10x_wwdg.h
+.\Obj\sys_config.o: ..\User\System\sys_config.h

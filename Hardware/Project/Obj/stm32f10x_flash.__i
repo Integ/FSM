@@ -1,0 +1,1 @@
+-c --device DARMSTM -g -O0 --apcs=interwork -I..\User\System -I..\User\Hardware\LED -I..\User\Hardware\TIMER -I "E:\Program Files\Keil\ARM\INC\ST\STM32F10x" -o ".\Obj\stm32f10x_flash.o" --omf_browse ".\Obj\stm32f10x_flash.crf" --depend ".\Obj\stm32f10x_flash.d" "..\Library\src\stm32f10x_flash.c"

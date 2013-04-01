@@ -1,0 +1,30 @@
+.\Obj\iic.o: ..\User\Hardware\I2C\iic.c
+.\Obj\iic.o: D:\Program Files\Keil4\ARM\INC\ST\STM32F10x\stm32f10x_lib.h
+.\Obj\iic.o: D:\Program Files\Keil4\ARM\INC\ST\STM32F10x\stm32f10x_map.h
+.\Obj\iic.o: D:\Program Files\Keil4\ARM\INC\ST\STM32F10x\stm32f10x_conf.h
+.\Obj\iic.o: D:\Program Files\Keil4\ARM\INC\ST\STM32F10x\stm32f10x_type.h
+.\Obj\iic.o: D:\Program Files\Keil4\ARM\INC\ST\STM32F10x\cortexm3_macro.h
+.\Obj\iic.o: D:\Program Files\Keil4\ARM\INC\ST\STM32F10x\stm32f10x_adc.h
+.\Obj\iic.o: D:\Program Files\Keil4\ARM\INC\ST\STM32F10x\stm32f10x_bkp.h
+.\Obj\iic.o: D:\Program Files\Keil4\ARM\INC\ST\STM32F10x\stm32f10x_can.h
+.\Obj\iic.o: D:\Program Files\Keil4\ARM\INC\ST\STM32F10x\stm32f10x_crc.h
+.\Obj\iic.o: D:\Program Files\Keil4\ARM\INC\ST\STM32F10x\stm32f10x_dac.h
+.\Obj\iic.o: D:\Program Files\Keil4\ARM\INC\ST\STM32F10x\stm32f10x_dbgmcu.h
+.\Obj\iic.o: D:\Program Files\Keil4\ARM\INC\ST\STM32F10x\stm32f10x_dma.h
+.\Obj\iic.o: D:\Program Files\Keil4\ARM\INC\ST\STM32F10x\stm32f10x_exti.h
+.\Obj\iic.o: D:\Program Files\Keil4\ARM\INC\ST\STM32F10x\stm32f10x_flash.h
+.\Obj\iic.o: D:\Program Files\Keil4\ARM\INC\ST\STM32F10x\stm32f10x_fsmc.h
+.\Obj\iic.o: D:\Program Files\Keil4\ARM\INC\ST\STM32F10x\stm32f10x_gpio.h
+.\Obj\iic.o: D:\Program Files\Keil4\ARM\INC\ST\STM32F10x\stm32f10x_i2c.h
+.\Obj\iic.o: D:\Program Files\Keil4\ARM\INC\ST\STM32F10x\stm32f10x_iwdg.h
+.\Obj\iic.o: D:\Program Files\Keil4\ARM\INC\ST\STM32F10x\stm32f10x_nvic.h
+.\Obj\iic.o: D:\Program Files\Keil4\ARM\INC\ST\STM32F10x\stm32f10x_pwr.h
+.\Obj\iic.o: D:\Program Files\Keil4\ARM\INC\ST\STM32F10x\stm32f10x_rcc.h
+.\Obj\iic.o: D:\Program Files\Keil4\ARM\INC\ST\STM32F10x\stm32f10x_rtc.h
+.\Obj\iic.o: D:\Program Files\Keil4\ARM\INC\ST\STM32F10x\stm32f10x_sdio.h
+.\Obj\iic.o: D:\Program Files\Keil4\ARM\INC\ST\STM32F10x\stm32f10x_spi.h
+.\Obj\iic.o: D:\Program Files\Keil4\ARM\INC\ST\STM32F10x\stm32f10x_systick.h
+.\Obj\iic.o: D:\Program Files\Keil4\ARM\INC\ST\STM32F10x\stm32f10x_tim.h
+.\Obj\iic.o: D:\Program Files\Keil4\ARM\INC\ST\STM32F10x\stm32f10x_usart.h
+.\Obj\iic.o: D:\Program Files\Keil4\ARM\INC\ST\STM32F10x\stm32f10x_wwdg.h
+.\Obj\iic.o: ..\User\Hardware\I2C\iic.h

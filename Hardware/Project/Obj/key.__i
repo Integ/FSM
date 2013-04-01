@@ -1,0 +1,1 @@
+-c --device DARMSTM -g -O0 --apcs=interwork -I..\User\System -I..\User\Hardware\LED -I..\User\Hardware\TIMERX -I "E:\Program Files\Keil\ARM\INC\ST\STM32F10x" -o ".\Obj\key.o" --omf_browse ".\Obj\key.crf" --depend ".\Obj\key.d" "..\User\Hardware\KEY\key.c"
