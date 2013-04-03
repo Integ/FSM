@@ -30,7 +30,13 @@ Ongoing...
 待定。
 
 ##Web User Interface 用户接口（/WebUI)
-
+The WebUI Run on a RaspberryPi.
 A friendly user interface.Frontend use html5 and jquery. It must be easy and elegant.
 
-一个好用的飞行器监控系统，前端使用html5和three.js（3d动画），后端java。目标是使数据更加直观（汪星人能看懂），对飞行器的操控更加飘逸（喵星人也会使用）。
+在树莓派上运行的一个好用的飞行器监控系统，使用html5和nodeJs实现。
+
+主要功能：
+1. 实时显示信息状态飞行器
+2. 向飞行器发送指令
+
+目标是使数据更加直观（汪星人能看懂），对飞行器的操控更加飘逸（喵星人也会使用）。
