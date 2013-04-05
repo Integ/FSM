@@ -5,7 +5,7 @@ A four-axis aircraft looks like Flying Spaghetti Monster, RAmen.
 
 Ongoing...
 
-这是一个四轴飞行器开发项目，包括飞行器硬件设计，姿态控制算法，wifi/3G通信模块以及一套基于java和html5的web用户接口。
+这是一个四轴飞行器开发项目，包括飞行器硬件设计，姿态控制算法，wifi/3G通信模块以及一套基于nodeJs和html5的web用户接口。
 
 ##Hardware 飞行器硬件设计
 
